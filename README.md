@@ -294,11 +294,10 @@ Training Step: 2000  | total loss: 1.33436
 Actual IDV
 0    12435
 1     3846
-dtype: int64
+
 Predicted IDV
 0    15127
 1     1154
-dtype: int64
 
 Confusion matrix:
 actual           0     1
