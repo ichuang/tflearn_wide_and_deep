@@ -320,4 +320,4 @@ Installation
 ============
 
 * Requires TF 0.10 or better
-* Requires TFLearn installed from github
+* Requires TFLearn installed from github (with [PR#308](https://github.com/tflearn/tflearn/pull/308))
