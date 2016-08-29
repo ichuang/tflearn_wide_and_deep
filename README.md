@@ -207,7 +207,7 @@ Wide Model
 
 Run this for the wide model:
 
-    python tflearn_wide+deep.py --verbose --n_epoch=2000 --model_type=wide --snapshot_step=500 --wide_learning_rate=0.0001 
+    python tflearn_wide_and_deep.py --verbose --n_epoch=2000 --model_type=wide --snapshot_step=500 --wide_learning_rate=0.0001 
 
 The tensorboard plots should show the accuracy and loss, as well as the four confusion matrix entries, e.g.:
 
@@ -244,7 +244,7 @@ Deep Model
 
 Run this:
 
-    python tflearn_wide+deep.py --verbose --n_epoch=2000 --model_type=deep --snapshot_step=250 --run_name="deep_run" --deep_learning_rate=0.001
+    python tflearn_wide_and_deep.py --verbose --n_epoch=2000 --model_type=deep --snapshot_step=250 --run_name="deep_run" --deep_learning_rate=0.001
 
 And the result should look something like:
 
@@ -278,7 +278,7 @@ Wide+Deep Model
 
 Now how does the combined model perform?  Run this:
 
-    python tflearn_wide+deep.py --verbose --n_epoch=2000 --model_type=wide+deep --snapshot_step=250 \
+    python tflearn_wide_and_deep.py --verbose --n_epoch=2000 --model_type=wide+deep --snapshot_step=250 \
         --run_name="wide+deep_run"  --wide_learning_rate=0.00001 --deep_learning_rate=0.0001 
 
 And the output should give something like this:
