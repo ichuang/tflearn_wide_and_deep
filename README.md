@@ -5,6 +5,8 @@ Pedagogical example realization of wide & deep networks, using
 [TensorFlow](https://www.tensorflow.org/) and
 [TFLearn](http://tflearn.org/).
 
+(Also see: [Pedagogical example of seq2seq RNN](https://github.com/ichuang/tflearn_seq2seq))
+
 This is a re-implementation of the google paper on [Wide & Deep
 Learning for Recommender Systems](http://arxiv.org/abs/1606.07792),
 using the combination of a wide linear model, and a deep feed-forward
@@ -314,6 +316,13 @@ accuracy, whereas the wide model gives 77.8% accuracy, at least for
 the run recorded above.  The combined model has performance inbetween.
 
 On more complicated datasets, perhaps the outcome would be different.
+
+Testing
+=======
+
+Unit tests are provided, implemented using [pytest](http://doc.pytest.org/en/latest/).  Run these using:
+
+    py.test tflearn_wide_and_deep.py
 
 Installation
 ============
